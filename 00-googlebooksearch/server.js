@@ -24,6 +24,10 @@ mongoose.connect(
     useNewUrlParser: true
   }
 );
+app.get("/", function(req, res) {
+  res.json(path.join(__dirname, "public/index.html"));
+});
+
 
 // Start the API server
 app.listen(PORT, () =>

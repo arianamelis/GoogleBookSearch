@@ -69,7 +69,7 @@ class Home extends Component {
               <h1 className="text-center">
                 <strong>Google Books Search</strong>
               </h1>
-              <h2 className="text-center">Search and save books of intrest. All your favorite books in one spot</h2>
+              <h2 className="text-center">Search and save books of interest. All your favorite books in one spot</h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">

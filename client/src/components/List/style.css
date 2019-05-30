@@ -3,7 +3,8 @@
 }
 .results {
 
-  background: #ceefe4;
+   background: linear-gradient(#333, black);
+  opacity: 0.9;
   height: 100%;
   padding: top 10px;
   display: inline-flex;

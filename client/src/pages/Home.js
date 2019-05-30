@@ -8,7 +8,7 @@ import Wrapper from "../components/Wrapper";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
-
+import "./main.css";
 class Home extends Component {
   state = {
     books: [],
@@ -61,13 +61,14 @@ class Home extends Component {
     return (
       <div>
         
-      <Container>
+     
       <Wrapper>
         <Row>
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>Google Books Search</strong>
+                <strong>Google Books Search         
+                  </strong>
               </h1>
               <h2 className="text-center">Search and save books of interest. All your favorite books in one spot</h2>
             </Jumbotron>
@@ -99,7 +100,7 @@ class Home extends Component {
                       Button={() => (
                         <button
                           onClick={() => this.handleBookSave(book.id)}
-                          className="btn btn-primary ml-2"
+                          className="btn btn-dark ml-2"
                         >
                           Save
                         </button>
@@ -116,7 +117,7 @@ class Home extends Component {
    
         </Wrapper>
         <Footer></Footer>
-      </Container>
+ 
    
    
       </div>

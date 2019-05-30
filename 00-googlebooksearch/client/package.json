@@ -2,7 +2,7 @@
   "name": "react-google-books",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nyt-google-search123.herokuapp.com/",
+  "homepage": "https://sheltered-wave-94102.herokuapp.com/",
   "proxy": "",
   "dependencies": {
     "axios": "^0.18.0",

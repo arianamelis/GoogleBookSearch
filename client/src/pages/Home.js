@@ -61,7 +61,7 @@ class Home extends Component {
     return (
       <div>
         
-     
+     <Container>
       <Wrapper>
         <Row>
           <Col size="md-12">
@@ -83,9 +83,12 @@ class Home extends Component {
             </Card>
           </Col>
         </Row>
-        <Row>
-          <Col size="md-12">
+        
+        <Col size="md-12">
+        
+             
             <Card title="Results">
+              
               {this.state.books.length ? (
                 <List>
                   {this.state.books.map(book => (
@@ -113,11 +116,11 @@ class Home extends Component {
               )}
             </Card>
           </Col>
-        </Row>
+      
    
         </Wrapper>
         <Footer></Footer>
- 
+ </Container>
    
    
       </div>

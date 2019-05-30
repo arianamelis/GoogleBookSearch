@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "version": "1.0.0",
   "engines": {
     "node": "10.3.0",
   "scripts": {
@@ -27,4 +26,5 @@
     "if-env": "^1.0.4",
     "mongoose": "^5.3.16"
   }
+}
 }
